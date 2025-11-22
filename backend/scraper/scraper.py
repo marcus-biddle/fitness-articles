@@ -7,7 +7,7 @@ import json
 
 def scrape_fitness_articles():
     base_url = "https://onlinelibrary.wiley.com"  # Example base URL, replace with actual site base
-    start_url = base_url + "/action/doSearch?SeriesKey=16000838&sortBy=Earliest&startPage=&Ppub=%5B20241121%20TO%20202511212359%5D"  # Replace with actual target URL
+    start_url = base_url + "/action/doSearch?Ppub=%5B20241121+TO+202511212359%5D&SeriesKey=16000838&sortBy=Earliest&startPage=&ConceptID=15941"  # Replace with actual target URL
 
     options = uc.ChromeOptions()
     # Comment out headless option if you want to watch browser
